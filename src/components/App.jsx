@@ -56,10 +56,7 @@ export class App extends Component {
     console.log(contacts)
     localStorage.setItem('contacts', JSON.stringify(contacts));
 
-    // if (getSavedContactsStorage) {
-    //     this.setState({ contacts: getSavedContactsStorage });
-    // }
-    // console.log("Saved Contacts Storage", getSavedContactsStorage)
+  
   }
   
 
